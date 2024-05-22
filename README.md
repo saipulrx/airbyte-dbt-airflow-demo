@@ -124,6 +124,9 @@ dataIngestion()
 - Enable airflow dag then check data in postgres or BigQuery
 
 ### Create dbt model
-
+- Copy paste all files in model folder
 
 ### Create dags for integration airbyte, dbt and apache airflow
+- Go to Airbyte UI then copy connection id for each connection. e.g : b1016cab-07de-499c-84f2-abfc1abdf819
+- Copy paste dags code elt_datapipelines.py in folder dags to your local folder
+- Enable airflow dag then check data in postgres or BigQuery
