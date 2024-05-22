@@ -25,10 +25,20 @@ In this course use tech stack :
 
 ### ELT Data Architecture & Data Modelling
 #### ELT Data Architecture
-
+![data_architecture](https://github.com/saipulrx/airbyte-dbt-airflow-demo/blob/main/assets/elt_data_architecture_modelling.png)
 
 #### Data Modelling
+In this course, for Data Modelling use Kimbal's Method - Star Schema
 
+<b>ERD Conceptual</b>
+![erd conceptual](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-conceptual.drawio.png)
+
+<b>ERD Logical</b>
+![erd logical](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-logical.drawio.png)
+
+<b>ERD Physical</b>
+<br />
+![erd physical](https://github.com/saipulrx/dbt-snowflake/blob/main/assets/erd-physical.drawio.png)
 
 ### Setup Airbyte in docker
 - git clone this code to local
