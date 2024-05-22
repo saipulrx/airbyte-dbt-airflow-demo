@@ -1,4 +1,4 @@
-# airbyte-dbt-airflow-demo
+# Hands-on Airbyte, dbt, Apache Airflow, PostgreSQL and BigQuery
 This repository for course Data Product II in Partnatech. 
 In this course use tech stack : 
 - Data Ingestion : Airbyte
