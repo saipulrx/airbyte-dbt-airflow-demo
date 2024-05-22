@@ -1,0 +1,23 @@
+fraud:
+  outputs:
+    dev:
+      #account: djyaump-ej00175
+      #database: airbyte_database
+      #password: password
+      #role: AIRBYTE_ROLE
+      #schema: AIRBYTE_SCHEMA
+      #threads: 200
+      #type: snowflake
+      #user: AIRBYTE_USER
+      #warehouse: AIRBYTE_WAREHOUSE
+      dataset: airbyte_dbt_alterra_de_batch2
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /opt/airflow/include/dbt/fraud/alterra-de-batch2-939261bd7f80.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: alterra-de-batch2
+      threads: 1
+      type: bigquery
+  target: dev

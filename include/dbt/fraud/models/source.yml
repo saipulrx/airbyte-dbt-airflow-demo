@@ -1,0 +1,14 @@
+version: 2 
+sources:
+  - name: green_trip_data
+    schema: airbyte_dbt_alterra_de_batch2
+    tables: 
+      - name: green_trip_data_2019_jan
+  - name: northwind_lite_data
+    schema: airbyte_dbt_alterra_de_batch2
+    tables: 
+      - name: products
+      - name: suppliers
+      - name: inventory_transactions
+      - name: orders
+      - name: order_details
