@@ -20,7 +20,7 @@ def dataIngestion():
     )
 
     postgres_to_bigquery = AirbyteTriggerSyncOperator(
-        task_id='ingest_csv_to_postgres',
+        task_id='ingest_postgres_to_bigquery',
         airbyte_conn_id='airbyte_conn',
         connection_id='b1016cab-07de-499c-84f2-abfc1abdf819',
         asynchronous=False,
